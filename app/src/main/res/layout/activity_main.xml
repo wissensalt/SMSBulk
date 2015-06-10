@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityMain">
+
+    <EditText
+        android:id="@+id/txtTargetNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/input_target_number"
+        android:singleLine="true"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/txtContent"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:hint="@string/input_content"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/txtMessageNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/message_number"
+        android:singleLine="true"
+        android:inputType="number"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btSendMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/send_message"/>
+
+    <Button
+        android:id="@+id/btSendWA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/send_wa"/>
+
+</LinearLayout>

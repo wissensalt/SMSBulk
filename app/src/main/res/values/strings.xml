@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SMSBulk</string>
+    <string name="input_target_number">Input Target Number</string>
+    <string name="input_content">Input Content</string>
+    <string name="send_message">Send Message</string>
+    <string name="send_wa">Send WhatsApp</string>
+    <string name="message_number">Input number of message</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
